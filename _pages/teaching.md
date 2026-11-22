@@ -2,14 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant and instructional experience.
 nav: true
 nav_order: 6
-calendar: true
+calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### Teaching Assistant
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **SE350 Complex Network Theory** — Sun Yat-sen University, Fall 2024
+- **SE204 Python Programming** — Sun Yat-sen University, Spring 2025
+- **DKU AI Summer Institute** — Duke Kunshan University, Summer 2026
 
-{% include courses.liquid %}
+### Service
+
+- Conference reviewer: **ACM MM**
