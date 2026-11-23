@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Cache-Control" content="no-cache" />
   <title>Xihao Guo</title>
   <style>
     body { font-family: Georgia, "Times New Roman", serif; max-width: 48rem; margin: 3rem auto; padding: 0 1.25rem 3.5rem; line-height: 1.65; color: #1f1f1f; }
@@ -12,118 +11,82 @@
     a { color: #0b57d0; }
     h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: .3rem; }
     ul { padding-left: 1.2rem; }
-    .lead { margin-bottom: 1rem; }
-    .feature { margin: 1.2rem 0 1.6rem; }
-    .feature video { width: 100%; max-height: 420px; background: #111; border: 1px solid #e5e5e5; }
-    .feature .cap { color: #666; font-size: .92rem; margin-top: .45rem; }
-    .pubs { display: grid; gap: 1.25rem; margin-top: 1rem; }
-    .pub { display: grid; grid-template-columns: 160px 1fr; gap: 1rem; align-items: start; }
-    .pub img { width: 160px; height: 110px; object-fit: cover; border: 1px solid #e5e5e5; background: #f6f6f6; }
-    .pub h3 { font-size: 1.02rem; margin: 0 0 .35rem; font-weight: 700; }
-    .pub .authors { color: #444; font-size: .95rem; margin: 0 0 .35rem; }
-    .pub .venue { color: #666; font-size: .9rem; margin: 0 0 .45rem; }
-    .links a { margin-right: .8rem; font-size: .92rem; }
-    @media (max-width: 640px) {
-      .pub { grid-template-columns: 1fr; }
-      .pub img { width: 100%; height: 180px; }
-    }
+    .pub { margin: 1.4rem 0 1.8rem; }
+    .pub h3 { font-size: 1.05rem; margin: 0 0 .3rem; }
+    .pub .authors, .pub .venue { margin: 0 0 .25rem; color: #444; }
+    .pub .venue { color: #666; font-size: .92rem; }
+    .pub img { width: 100%; max-height: 280px; object-fit: cover; border: 1px solid #e5e5e5; margin: .6rem 0; background: #f6f6f6; }
+    .pub video { width: 100%; max-height: 420px; background: #111; border: 1px solid #e5e5e5; margin: .6rem 0; }
+    .links a { margin-right: .8rem; }
   </style>
 </head>
 <body>
   <h1>Xihao Guo</h1>
   <p class="meta">Research Specialist · Duke Kunshan University<br>
   <a href="mailto:xg111@duke.edu">xg111@duke.edu</a> · Suzhou, Jiangsu, China<br>
-  Advisor: Prof. Kaizhu Huang · <a href="https://github.com/Tashi-GavinWW">GitHub</a> · <a href="https://github.com/Tashi-GavinWW/Tashi-GavinWW.github.io/raw/main/assets/pdf/XihaoGuo_CV.pdf">CV (PDF)</a></p>
+  <a href="assets/pdf/XihaoGuo_CV.pdf">CV (PDF)</a></p>
 
-  <p class="lead">I work on <strong>embodied AI</strong>, <strong>3D visual perception</strong>, and <strong>robot learning</strong>—especially systems that have to see, decide, and act under real sensing and hardware constraints. At DKU I contribute to lab projects spanning multi-view 3D scene editing, cross-device grasping, and safety for agentic robot control, while mentoring undergraduate researchers along the way.</p>
+  <p>I work on embodied AI, 3D visual perception, and robot learning: how a system sees a scene, decides what to do, and carries it out under real cameras and hardware. At Duke Kunshan University I contribute to multi-view 3D scene editing, cross-device grasping, and safety checks for robot control, and I mentor undergraduate researchers in the lab.</p>
 
-  <h2>Featured: Multi-View 3D Object Removal</h2>
-  <div class="feature">
+  <h2>Publications</h2>
+
+  <article class="pub">
+    <h3>Toward Accurate and Generalized Multi-View 3D Object Removal with Diffusion</h3>
+    <p class="authors"><strong>X. Guo</strong>, W. Zhao, S. Wang, Z. Wang, R. Zhang, K. Huang</p>
+    <p class="venue">Under review, 2026</p>
     <video controls playsinline preload="metadata" poster="assets/img/publication_preview/mv3d.jpg">
       <source src="https://github.com/Tashi-GavinWW/Tashi-GavinWW.github.io/releases/download/media-v1/mv3d_object_removal.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
     </video>
-    <p class="cap">Supplementary video for <em>Toward Accurate and Generalized Multi-View 3D Object Removal with Diffusion</em> (under review, 2026). The project combines 3DGS / NeRF cues with diffusion-based view refinement and introduces the CoRe-MV benchmark.</p>
-  </div>
+  </article>
 
-  <h2>Selected Publications</h2>
-  <div class="pubs">
-    <article class="pub">
-      <img src="assets/img/publication_preview/mv3d.jpg" alt="Multi-view 3D object removal" />
-      <div>
-        <h3>Toward Accurate and Generalized Multi-View 3D Object Removal with Diffusion</h3>
-        <p class="authors"><strong>X. Guo</strong>, W. Zhao, S. Wang, Z. Wang, R. Zhang, K. Huang</p>
-        <p class="venue">Under review, 2026</p>
-        <div class="links">
-          <a href="#featured-video" onclick="document.querySelector('video').scrollIntoView({behavior:'smooth'});return false;">Video</a>
-        </div>
-      </div>
-    </article>
+  <article class="pub">
+    <h3>Towards Robotic Dexterous Hand Intelligence: A Survey</h3>
+    <p class="authors">W. Zhao*, <strong>X. Guo*</strong>, T. Liang*, R. Zhang, I. King, K. Huang</p>
+    <p class="venue">arXiv preprint, 2026</p>
+    <img src="assets/img/publication_preview/dexterous.jpg" alt="Dexterous hand survey figure" />
+    <div class="links">
+      <a href="https://arxiv.org/abs/2605.13925">Paper</a>
+      <a href="https://arxiv.org/pdf/2605.13925.pdf">PDF</a>
+    </div>
+  </article>
 
-    <article class="pub">
-      <img src="assets/img/publication_preview/dexterous.jpg" alt="Dexterous hand survey" />
-      <div>
-        <h3>Towards Robotic Dexterous Hand Intelligence: A Survey</h3>
-        <p class="authors">W. Zhao*, <strong>X. Guo*</strong>, T. Liang*, R. Zhang, I. King, K. Huang</p>
-        <p class="venue">arXiv preprint, 2026 · Equal contribution</p>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2605.13925">arXiv</a>
-          <a href="https://arxiv.org/pdf/2605.13925.pdf">PDF</a>
-        </div>
-      </div>
-    </article>
+  <article class="pub">
+    <h3>LEASH: Stay Safe in Agentic Robotics</h3>
+    <p class="authors">Q. Zhu, W. Zhao, K. Sun, <strong>X. Guo</strong>, Y. Jiang, R. Zhang, L. Fan, K. Huang</p>
+    <p class="venue">arXiv preprint, 2026</p>
+    <img src="assets/img/publication_preview/leash.jpg" alt="LEASH figure" />
+    <div class="links">
+      <a href="https://arxiv.org/abs/2611.14115">Paper</a>
+      <a href="https://zhuqinfeng1999.github.io/LEASH/">Project</a>
+    </div>
+  </article>
 
-    <article class="pub">
-      <img src="assets/img/publication_preview/leash.jpg" alt="LEASH teaser" />
-      <div>
-        <h3>LEASH: Stay Safe in Agentic Robotics</h3>
-        <p class="authors">Q. Zhu, W. Zhao, K. Sun, <strong>X. Guo</strong>, Y. Jiang, R. Zhang, L. Fan, K. Huang</p>
-        <p class="venue">arXiv preprint, 2026</p>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2611.14115">arXiv</a>
-          <a href="https://zhuqinfeng1999.github.io/LEASH/">Project</a>
-        </div>
-      </div>
-    </article>
+  <article class="pub">
+    <h3>Towards Cross-Device Robotic Grasping Policy in 3D Open World</h3>
+    <p class="authors">W. Zhao*, C. Jiang*, <strong>X. Guo</strong>, C. Zhang, J. Sun, Y. Yan, B. Dong, R. Zhang, K. Huang</p>
+    <p class="venue">SSRN preprint, 2026</p>
+    <img src="assets/img/publication_preview/grasping.jpg" alt="Grasping paper" />
+    <div class="links">
+      <a href="https://doi.org/10.2139/ssrn.6690927">Paper</a>
+    </div>
+  </article>
 
-    <article class="pub">
-      <img src="assets/img/publication_preview/grasping.jpg" alt="Cross-device grasping" />
-      <div>
-        <h3>Towards Cross-Device Robotic Grasping Policy in 3D Open World</h3>
-        <p class="authors">W. Zhao*, C. Jiang*, <strong>X. Guo</strong>, C. Zhang, J. Sun, Y. Yan, B. Dong, R. Zhang, K. Huang</p>
-        <p class="venue">SSRN preprint, 2026</p>
-        <div class="links">
-          <a href="https://doi.org/10.2139/ssrn.6690927">SSRN / DOI</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="pub">
-      <img src="assets/img/publication_preview/safetyedit.jpg" alt="SAFETYEDIT" />
-      <div>
-        <h3>SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors</h3>
-        <p class="authors">Y. Ke*, Y. Wang*, Z. Zhang, <strong>X. Guo</strong>, C. Zhao, K. Huang</p>
-        <p class="venue">arXiv preprint, 2026</p>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2610.22640">arXiv</a>
-          <a href="https://arxiv.org/pdf/2610.22640.pdf">PDF</a>
-        </div>
-      </div>
-    </article>
-  </div>
-
-  <h2>Current Focus</h2>
-  <ul>
-    <li>Agentic robotics safety on a real Dobot CR5V2 platform with dual RealSense cameras</li>
-    <li>Multi-view 3D object removal and scene completion with diffusion</li>
-    <li>Cross-device grasping and dexterous / VLA-oriented manipulation</li>
-  </ul>
+  <article class="pub">
+    <h3>SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors</h3>
+    <p class="authors">Y. Ke*, Y. Wang*, Z. Zhang, <strong>X. Guo</strong>, C. Zhao, K. Huang</p>
+    <p class="venue">arXiv preprint, 2026</p>
+    <img src="assets/img/publication_preview/safetyedit.jpg" alt="SAFETYEDIT figure" />
+    <div class="links">
+      <a href="https://arxiv.org/abs/2610.22640">Paper</a>
+      <a href="https://arxiv.org/pdf/2610.22640.pdf">PDF</a>
+    </div>
+  </article>
 
   <h2>Background</h2>
   <ul>
-    <li><strong>Research Specialist</strong>, Duke Kunshan University · Jul 2025 – Present</li>
-    <li><strong>B.E. Information Engineering</strong>, Sun Yat-sen University · Sep 2021 – Jul 2025</li>
-    <li><strong>Software Development Intern</strong>, PIESAT · Jan 2024 – Mar 2024</li>
+    <li>Research Specialist, Duke Kunshan University · Jul 2025 – Present</li>
+    <li>B.E. Information Engineering, Sun Yat-sen University · Sep 2021 – Jul 2025</li>
+    <li>Software Development Intern, PIESAT · Jan 2024 – Mar 2024</li>
   </ul>
 </body>
 </html>
