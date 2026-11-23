@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Specialist at <a href="https://www.dukekunshan.edu.cn/">Duke Kunshan University</a>. Advisor: Prof. Kaizhu Huang.
+subtitle: Research Specialist at <a href="https://www.dukekunshan.edu.cn/">Duke Kunshan University</a> · Advisor: Prof. Kaizhu Huang
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Specialist in Deep Learning and Pattern Recognition at **Duke Kunshan University**, working with Prof. Kaizhu Huang. I received my B.E. in Information Engineering from **Sun Yat-sen University** (GPA 3.6/4.0).
+I am a Research Specialist at **Duke Kunshan University**, working with Prof. Kaizhu Huang on embodied AI and 3D vision. Before joining DKU, I studied Information Engineering at **Sun Yat-sen University**.
 
-My research focuses on **3D & 4D scene understanding and editing**, **diffusion policies**, **neural learning systems**, **embodied intelligence**, and **robotic manipulation**. Long term, I aim to build physics-aware 3D/4D vision models that combine geometric, temporal, and physical constraints, so robots can perceive, understand, and manipulate dynamic and deformable objects in the real world.
+My current focus sits at the intersection of **robot learning**, **spatial perception**, and **agentic robot systems**: how a robot should see the world, decide what is safe to do, and act under real sensing and hardware constraints. Recent projects span multi-view 3D scene editing, cross-device grasping, dexterous-hand intelligence, and safety harnesses for foundation-model robot control.
 
-Recent work includes multi-view 3D object removal with diffusion, cross-device open-world robotic grasping, bio-inspired Hopfield memory learning, and dexterous manipulation on the Unitree G1 platform.
+I also mentor undergraduate researchers in the lab and enjoy building systems that can be evaluated end-to-end—simulation when useful, real robots when it matters.
