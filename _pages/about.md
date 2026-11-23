@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Specialist at <a href="https://www.dukekunshan.edu.cn/">Duke Kunshan University</a> · Advisor: Prof. Kaizhu Huang
+subtitle: Research Specialist at <a href="https://www.dukekunshan.edu.cn/">Duke Kunshan University</a>
 
 profile:
   align: right
@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>xg111@duke.edu</p>
     <p>Suzhou, Jiangsu, China</p>
-    <p><a href="https://tashi-gavinww.github.io/">tashi-gavinww.github.io</a></p>
 
 selected_papers: true
 social: true
@@ -27,8 +26,6 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Specialist at **Duke Kunshan University**, working with Prof. Kaizhu Huang on embodied AI and 3D vision. Before joining DKU, I studied Information Engineering at **Sun Yat-sen University**.
+I am a Research Specialist at **Duke Kunshan University**. I work on embodied AI, 3D visual perception, and robot learning: systems that have to see a scene, decide what to do, and carry it out under real sensing and hardware constraints.
 
-My current focus sits at the intersection of **robot learning**, **spatial perception**, and **agentic robot systems**: how a robot should see the world, decide what is safe to do, and act under real sensing and hardware constraints. Recent projects span multi-view 3D scene editing, cross-device grasping, dexterous-hand intelligence, and safety harnesses for foundation-model robot control.
-
-I also mentor undergraduate researchers in the lab and enjoy building systems that can be evaluated end-to-end—simulation when useful, real robots when it matters.
+Before DKU, I studied Information Engineering at **Sun Yat-sen University**. Recent work covers multi-view 3D scene editing, cross-device grasping, dexterous manipulation, and safety checks for foundation-model robot control. I also mentor undergraduate researchers in the lab.
